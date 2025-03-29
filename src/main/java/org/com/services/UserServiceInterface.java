@@ -1,4 +1,8 @@
 package org.com.services;
 
-public class UserServiceInterface {
+import org.com.models.User;
+
+public interface UserServiceInterface {
+    boolean registerUser(User user);
+    User loginUser(String email, String password);
 }
