@@ -12,6 +12,10 @@ public class BookingService {
         this.bookingDAO = new BookingDAO(conn);
     }
 
+    public BookingService(BookingDAO bookingDAO) {
+        this.bookingDAO = bookingDAO;
+    }
+
     public boolean bookTicket(int userId, int trainId, int seatCount, String bookingTime) {
         return bookingDAO.bookTicket(userId, trainId, seatCount, bookingTime);
     }

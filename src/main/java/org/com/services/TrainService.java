@@ -14,6 +14,10 @@ public class TrainService {
         this.trainDAO = new TrainDAO(conn);
     }
 
+    public TrainService(TrainDAO trainDAO) {
+        this.trainDAO = trainDAO;
+    }
+
     public boolean registerTrain(Train train) throws SQLException {
         return trainDAO.addTrain(train);
     }
