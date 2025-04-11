@@ -64,3 +64,11 @@ mvn clean install
 ````
 mvn exec:java -Dexec.mainClass="org.com.Main"
 ````
+
+## Future Improvements
+
+- Add role-based access (Admin dashboard)
+- Implement a GUI using JavaFX or a web interface (Spring Boot + React)
+- Enable email confirmation of tickets
+- Add seat selection and pricing features
+- Integrate payment gateway for real-world scenarios
