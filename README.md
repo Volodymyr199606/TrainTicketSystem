@@ -15,19 +15,19 @@ A console-based Java application that allows users to book, cancel, and manage t
 
 ## Features
 
-🧍 User registration & login
+- User registration & login
 
-🚆 View available trains
+- View available trains
 
-🎟 Book tickets
+- Book tickets
 
-❌ Cancel bookings
+- Cancel bookings
 
-📊 View booking history
+- View booking history
 
-🔧 DAO-Service architecture
+- DAO-Service architecture
 
-🔍 Unit tested services using Mockito
+- Unit tested services using Mockito
 
 
 ## ⚙️ Installation & Setup
